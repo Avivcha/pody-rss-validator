@@ -1,5 +1,9 @@
 # pody-rss-validator
 
+[![npm version](https://img.shields.io/npm/v/pody-rss-validator.svg?color=0105E3)](https://www.npmjs.com/package/pody-rss-validator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Built by Pody](https://img.shields.io/badge/built%20by-Pody-0105E3)](https://pody.io)
+
 Validate any podcast RSS feed against the actual requirements of **Apple Podcasts**, **Spotify for Creators**, **Amazon Music**, and the **Podcasting 2.0** namespace — in one command. Zero config, zero registration, no signup. Works in CI.
 
 ```bash
