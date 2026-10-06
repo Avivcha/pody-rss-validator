@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "lint": "tsc --noEmit"
   },
   "keywords": [
@@ -40,11 +40,11 @@
     "url": "https://github.com/Avivcha/pody-rss-validator/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20.18.1"
   },
   "dependencies": {
-    "fast-xml-parser": "^4.5.0",
-    "undici": "^7.0.0"
+    "fast-xml-parser": "5.7.0",
+    "undici": "7.29.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

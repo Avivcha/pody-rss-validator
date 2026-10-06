@@ -3,7 +3,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validate } from '../src/index.js';
+import { validate } from '../dist/index.js';
 
 test('validate is a function', () => {
   assert.equal(typeof validate, 'function');

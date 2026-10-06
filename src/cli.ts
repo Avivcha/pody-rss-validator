@@ -38,7 +38,7 @@ async function main() {
       podcasting20: 'Podcasting 2.0 namespace',
     };
     for (const cat of Object.keys(byCategory)) {
-      const c = byCategory[cat];
+      const c = byCategory[cat]!;
       const status = c.fail === 0 ? '✓' : c.fail < c.total / 2 ? '⚠' : '✗';
       console.log(`${status} ${(labels[cat] || cat).padEnd(35)} ${c.pass}/${c.total} checks pass`);
       for (const f of result.checks.filter((x) => x.category === cat && !x.passed)) {
